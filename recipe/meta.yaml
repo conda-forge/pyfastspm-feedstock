@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 9d76fbd1e72de40d3a2b8f817b82b3329cbaa1812407fae93df624f5e951a7d1
-  patches:
-    - temporary_setup_patch.diff  # remove on 0.11.1 release
 
 build:
   noarch: python
@@ -20,10 +18,11 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - setuptools_scm
   run:
     - python >=3.6
     - packaging
-    - matplotlib-base
+    - matplotlib
     - h5py
     - scipy
     - numpy
@@ -32,6 +31,7 @@ requirements:
     - ffmpeg
     - mkl_fft
     - scikit-image
+    - seaborn
 
 test:
   imports:
