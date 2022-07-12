@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.6
     - packaging
-    - matplotlib
+    - matplotlib-base
     - h5py
     - scipy
     - numpy
