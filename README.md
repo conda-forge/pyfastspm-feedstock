@@ -1,11 +1,11 @@
-About pyfastspm
-===============
+About pyfastspm-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyfastspm-feedstock/blob/main/LICENSE.txt)
 
 Home: http://fastspm.gitlab.io/pyfastspm/
 
 Package license: MIT AND Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyfastspm-feedstock/blob/main/LICENSE.txt)
 
 Summary: A python package for loading, processing and exporting scanning probe microscopy movies acquired with the FAST unit.
 
