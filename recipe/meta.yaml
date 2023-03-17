@@ -31,7 +31,6 @@ requirements:
     - ffmpeg
     - mkl_fft
     - scikit-image
-    - seaborn
 
 test:
   imports:
