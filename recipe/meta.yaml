@@ -1,5 +1,5 @@
 {% set name = "pyfastspm" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e0c5984526744d39dff565b567618791a2e6b644c03928bdf816744962c753b8
+  sha256: d79a97f4b9055104ab32f04b5ca86523070d6d0863eb960b12e35bd6f9addbe2
 
 build:
   noarch: python
