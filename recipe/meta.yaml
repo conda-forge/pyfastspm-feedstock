@@ -21,16 +21,15 @@ requirements:
     - setuptools_scm
   run:
     - python >=3.6
-    - packaging
-    - matplotlib-base
-    - h5py
-    - scipy
     - numpy
+    - scipy
+    - scikit-image
+    - matplotlib-base
     - pillow
     - tqdm
+    - h5py
+    - packaging
     - ffmpeg
-    - mkl_fft
-    - scikit-image
 
 test:
   imports:
