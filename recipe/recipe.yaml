@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: pyfastspm
-  version: 1.0.5
-  python_min: 3.8
+  version: "1.0.6"
+  python_min: '3.8'
 
 package:
   name: ${{ name|lower }}
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: e605ad960a6e5f1f19b26bc7e259c16a2cde1801b8214a451ae5f1fcdd1d8ff6
+  sha256: c768a83fa90625473ac7ddfb05b7760c6a7061aa7f0f1598ab19759c1ff6a8c5
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
